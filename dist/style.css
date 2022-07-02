@@ -147,7 +147,14 @@ p.subtitle{
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 1rem 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+}
+
+footer i {
+    margin: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
 }

@@ -59,8 +59,12 @@ const createMain = () => {
 
 const createFooter = () => {
     const footer = document.createElement("footer");
-
-    footer.innerText = "Copyright © 2022 rohannaido";
+    const githubIcon = document.createElement("i");
+    githubIcon.classList.add("fa-brands");
+    githubIcon.classList.add("fa-github")
+    
+    footer.innerText = "Copyright © 2022 rohannaido ";
+    footer.appendChild(githubIcon);
     return footer;
 }
 
