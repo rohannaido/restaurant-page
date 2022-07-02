@@ -6,27 +6,27 @@ const menuItems = [
     },
     {
         name: "Mutton Biryani",
-        image: "",
+        image: "./images/mutton-biryani.jpg",
         ingredient: "mutton, rice",
     },
     {
         name: "Tandoori Chicken",
-        image: "",
+        image: "./images/tandoori-chicken.jpg",
         ingredient: "",
     },
     {
         name: "Grill Chicken",
-        image: "",
+        image: "./images/grilled-chicken.jpg",
         ingredient: "",
     },
     {
         name: "Chicken 65",
-        image: "",
+        image: "./images/chicken-65.jpg",
         ingredient: "",
     },
     {
         name: "Pepper Chicken",
-        image: "",
+        image: "./images/pepper-chicken.jpg",
         ingredient: "",
     },
 ];

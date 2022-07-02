@@ -1,9 +1,6 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
-
-const mainBackground = () => {
-    // content
-}
+import loadContact from "./contact";
 
 const createHeader = () => {
     const header = document.createElement("header");
@@ -44,6 +41,7 @@ const createNavBar = () => {
     contactButton.textContent = "Contact";
     contactButton.classList.add("nav-btn");
     contactButton.addEventListener("click", () => {
+        loadContact();
         setActiveButton(contactButton);
     })
 
