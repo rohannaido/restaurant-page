@@ -9,7 +9,7 @@ const createHeader = () => {
     const header = document.createElement("header");
     
     const heading = document.createElement("h1");
-    heading.innerText = "Mozzafiato";
+    heading.innerText = "Bawarchi";
     heading.className = "restaurant-name-heading"
     
     content.appendChild(header);
